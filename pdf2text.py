@@ -11,10 +11,3 @@ with open(os.path.join(path2save, file_name), 'w', encoding='utf-8') as f:
         f.write(reader.pages[i].extract_text())
         f.write("\n")
 
-
-
-
-
-
-
-
